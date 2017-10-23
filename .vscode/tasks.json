@@ -9,7 +9,8 @@
             "command": "g++",
             "args": [
                 "-g",
-                "helloworld.cpp"
+                "helloworld.cpp",
+                "-l boost_program_options"
             ],
             "problemMatcher": [
                 "$gcc"
